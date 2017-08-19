@@ -1,0 +1,18 @@
+.child-va {
+	position: relative;
+	&::after {
+		content: '';
+	  display: inline-block;
+	  vertical-align: middle ;
+	  height: 100%;					
+	}	
+	&>*{
+		vertical-align: middle ;
+		display: inline-block;
+	}			
+}
+
+.b-link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.SquareButton {
+  background-color: #f6f7f9;
+  border: 1px solid #ced0d4;	    
+  color: #4b4f56;			
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  min-height: 10px;
+  min-width: 10px;
+  &:hover {
+  	background-color: #e9ebee;
+  }	
+}

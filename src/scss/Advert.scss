@@ -1,0 +1,22 @@
+.Advert {
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 1.28;		
+	margin-top: 12px;
+	&:first-child {
+		margin-top: 0;
+	}
+
+	.Advert-title {
+		padding-top: 10px;
+		color: rgb(59, 89, 152);
+		font-weight: bold;
+	}
+	.Advert-url {
+		color: rgb(59, 89, 152);
+	}
+	.Advert-content {
+		padding-top: 6px;
+		color: rgb(146, 149, 152);
+	}
+}
