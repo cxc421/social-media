@@ -2,6 +2,7 @@
   "name": "social-media",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cxc421.github.io/social-media/build/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "classnames": "^2.2.5",
