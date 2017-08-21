@@ -285,6 +285,7 @@ i.Icon {
   background: transparent;
   padding: 18px 12px 14px 12px;
   width: 448px;
+  width: calc(100% - 40px - 12px);
   height: 71px;
   line-height: 28px;
   max-height: 71px;
@@ -586,8 +587,8 @@ i.Icon {
   height: 26px;
   padding-left: 7px;
   padding-right: 48px;
-  position: relative;
   background: white;
+  position: relative;
 }
 
 .SearchBar button {

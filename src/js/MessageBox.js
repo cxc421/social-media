@@ -52,7 +52,7 @@ class MessageBoxSub extends Component {
 						<div className="row child-va">
 							<div ref="iconArea" className="pull-left child-va icon-area">		
 								{
-									moodList.map((imgName) => <MoodIcon imgName={imgName} />)
+									moodList.map((imgName, idx) => <MoodIcon imgName={imgName} key={idx} />)
 								}
 								<span className="b-link moodCount">{this._convertNumberToDollar(moodCount)}</span>								
 							</div>

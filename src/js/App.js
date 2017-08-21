@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import $ from 'jquery';
 //import { Grid, Navbar, Image } from 'react-bootstrap';
 //import logoImg from '../img/logo.png';
-import Navbar from './Navbar2.js';
+import Navbar from './Navbar.js';
 import Leftbar from './Leftbar.js';
 import Rightbar from './Rightbar.js';
 import MainContent from './MainContent.js';

@@ -74,7 +74,7 @@ const message = [
 					</div>
 					<hr />
 					<div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/_fDYScwehvk?ecver=1" frameborder="0" allowfullscreen></iframe>
+            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/_fDYScwehvk?ecver=1" frameBorder="0" allowFullScreen></iframe>
           </div>					
 				</div>
 			)
